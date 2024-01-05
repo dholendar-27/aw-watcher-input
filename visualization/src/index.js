@@ -8,7 +8,7 @@ function add(accumulator, a) {
 }
 
 // TODO: Avoid testing-port assumption
-const testing = url.port != 5600;
+const testing = url.port != 7600;
 
 let today_start = new Date();
 today_start.setHours(0, 0, 0, 0);
